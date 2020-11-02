@@ -1,0 +1,58 @@
+header {
+    background-image: url(tlo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: #F5DEB3;
+}
+
+h1 {
+    padding-top: 3%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #D2691E;
+}
+.btn-group .button {
+  background-color: #A0522D; 
+  border: 1px solid #D2691E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #D2691E;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+border: 1px solid black;
+
+}
+
+tr:nth-child(even) {background-color: #FFEBCD}
+
+tr:nth-child(odd) {background-color: #F5F5DC;}
+
